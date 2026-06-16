@@ -1,0 +1,209 @@
+```html
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="สวัสดีครับ ผมชื่อชินนะครับมาจากสงขลา ปฐมพร บัวเนี่ยว นิสิตสาขา CS มหาวิทยาลัยทักษิณ" />
+    <title>ปฐมพร บัวเนี่ยว - Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="images/profile.jpg" alt="รูปโปรไฟล์ของ ปฐมพร บัวเนี่ยว" width="150" height="150" />
+            <h1>ปฐมพร บัวเนี่ยว</h1>
+            <h2>สาขาวิทยาการคอมพิวเตอร์ | มหาวิทยาลัยทักษิณ</h2>
+
+            <nav>
+                <a href="#about">เกี่ยวกับฉัน</a>
+                <a href="#skills">ทักษะ & UX/UI</a>
+                <a href="#grades">ผลการเรียน (GPAX 3.24)</a>
+                <a href="#contact">ติดต่อฉัน</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- About -->
+            <section id="about">
+                <h2>เกี่ยวกับฉัน</h2>
+
+                <p>
+                    สวัสดีครับ ผมชื่อ<strong>ชิน (นายปฐมพร บัวเนี่ยว)</strong>
+                    เป็นนิสิตชั้นปีที่ 3 สาขาวิทยาการคอมพิวเตอร์
+                    มหาวิทยาลัยทักษิณ รหัสนิสิต 6720210042
+                    จากจังหวัดสงขลาครับ
+                </p>
+
+                <p>
+                    ฉันสนใจด้าน <em>Web Development</em> และ <em>Data Science</em> ...
+                </p>
+
+                <p>
+                    จุดเด่นของฉัน:
+                    <mark>ชอบตกแต่ง UX/UI</mark>
+                </p>
+
+                <address>
+                    ติดต่ออีเมลนิสิต:
+                    <a href="mailto:6720210042@tsu.ac.th">
+                        6720210042@tsu.ac.th
+                    </a>
+                </address>
+
+                <blockquote>
+                    <q>Code is like humor. When you have to explain it, it's bad.</q>
+                    &mdash; Cory House
+                </blockquote>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills">
+                <h2>ทักษะและความสามารถ</h2>
+
+                <h3>ภาษาคอมพิวเตอร์</h3>
+                <ul>
+                    <li>Python — Data Analysis, Scripting</li>
+                    <li>JavaScript — Web Frontend</li>
+                    <li>Java — OOP, Android</li>
+                    <li>C / C++ — Systems Programming</li>
+                </ul>
+
+                <h3>เครื่องมือและเทคโนโลยี</h3>
+                <ul>
+                    <li>VS Code, Git, GitHub</li>
+                    <li>HTML5, CSS3, UX/UI Design</li>
+                    <li>Linux Command Line</li>
+                    <li>MySQL, PostgreSQL</li>
+                </ul>
+            </section>
+
+            <!-- Grades -->
+            <section id="grades">
+                <h2>ผลการเรียน</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>รหัสวิชา</th>
+                            <th>ชื่อวิชา</th>
+                            <th>หน่วยกิต</th>
+                            <th>เกรด</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>0214321</td>
+                            <td>Web Application Development</td>
+                            <td>3</td>
+                            <td>A</td>
+                        </tr>
+
+                        <tr>
+                            <td>0214301</td>
+                            <td>Database Systems</td>
+                            <td>3</td>
+                            <td>B+</td>
+                        </tr>
+
+                        <tr>
+                            <td>0214311</td>
+                            <td>Data Structures and Algorithms</td>
+                            <td>3</td>
+                            <td>A</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact">
+                <h2>ติดต่อฉัน</h2>
+
+                <form action="#" method="post">
+
+                    <label for="name">ชื่อ-นามสกุล:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="กรอกชื่อของคุณ"
+                        required
+                    />
+
+                    <label for="email">อีเมล:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="example@email.com"
+                        required
+                    />
+
+                    <label for="message">ข้อความ:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="เขียนข้อความถึงฉัน..."
+                    ></textarea>
+
+                    <button type="submit">
+                        ส่งข้อความ
+                    </button>
+
+                </form>
+
+                <p>
+                    <strong>ช่องทางโซเชียลมีเดีย:</strong>
+
+                    <a href="https://facebook.com"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        FB: P'pathomphon Buanieo
+                    </a>
+
+                    |
+
+                    <a href="https://github.com/6720210042-boop"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub: 6720210042-boop
+                    </a>
+                </p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>
+                &copy; 2569 ปฐมพร บัวเนี่ยว |
+                รายวิชา 0214321 Web Application Development
+            </p>
+
+            <p>
+                <a href="https://github.com/6720210042-boop"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub: 6720210042-boop
+                </a>
+
+                |
+
+                <a href="mailto:6720210042@tsu.ac.th">
+                    6720210042@tsu.ac.th
+                </a>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+```
